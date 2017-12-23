@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Administrator
+ * User: ZHIHUA·WEI
  * Date: 2017/12/23
  * Time: 10:30
  */
@@ -10,9 +10,9 @@ require_once 'PHPExcel.php';
 
 $path = $_SERVER['DOCUMENT_ROOT'];
 
-$filePath = $path . '\test\test1.xlsx';
+$filePath = $path . '\test\test.xlsx';
 
-$img_path = $path . "/test/image/";
+$img_path = $path . "/test/img/";
 
 //echo $file_path;
 $PHPExcel = new PHPExcel();
